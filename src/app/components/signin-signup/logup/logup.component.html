@@ -1,0 +1,7 @@
+<form #loginForm="ngForm" (ngSubmit)="onSubmit(loginForm)">
+    <input type="text" #name="ngModel" [(ngModel)]="this.user.name" name="name">
+    <input type="text" #prenom="ngModel" [(ngModel)]="this.user.prenom" name="prenom">
+    <input type="text" #email="ngModel" [(ngModel)]="this.user.email" name="email">
+    <input type="text" #password="ngModel" [(ngModel)]="this.user.password" name="password">
+    
+</form>

@@ -1,0 +1,33 @@
+<div class="row col-lg-6 col-xs-12 center-lg centre">
+                   
+    <h1 class="titre"> Chose Your Picture</h1>
+
+    
+
+
+<!-- <div class="alert alert-success" *ngIf="status == 'success'"> 
+Téléchargement reussi.
+See <a routerLink="/home">voir les Images</a>
+</div>
+<div class="alert alert-danger" *ngIf="status == 'error'">
+Téléchargement echec. 
+</div> -->
+
+                 <div class="wrapper">
+                     <div class="file-upload">
+                         <input type="file" (change)="selectFile($event)"/>
+                         <i class="fa fa-arrow-up"></i>
+                     </div>
+                     
+                 </div>
+ 
+          
+
+                 <div class="btn">
+                             <input type="submit" (click)="this.upload()"  value="Submit" class="button"/>            
+                 </div>                         
+         
+
+
+
+ </div>

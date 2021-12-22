@@ -1,0 +1,124 @@
+.wrapper{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+ul.menus li a:hover{
+      border-bottom: 3px solid rgb(0, 60, 255);  
+}
+/* La liste des éléments du menu*/
+.gauche li{
+    list-style-type: none;
+    margin-top: 12px;
+
+}
+.gauche ul{
+    margin-top: 30px;
+}
+.gauche{
+    height: 100%;
+    border-right: 1px solid rgb(219, 218, 218);
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+}
+
+// les liens à l'interieur des listes
+.gauche li a{
+    font-size: 1.3em;
+}
+
+.identite{
+    margin-top: 250px;
+    justify-content: center;
+}
+
+
+.identite h2{
+    font-size: 2.5em;
+}
+
+/* La section du centre*/
+.centre{
+    top: 1%;
+    left: 25%;
+    transform: translate(60,25%);
+    position: absolute;
+    width: 100%;
+}
+.droite{
+right: 0;
+top: 0;
+position: fixed;
+height: 100%;
+}
+
+/*le cadre du blog*/
+
+.blogCadre{
+width: 100%;
+padding-bottom: 20px;
+
+}
+
+.blogCadre .immage{
+width: 100%;
+}
+
+.blogCadre .immage img{
+    width: 100%;
+    height: 300px;
+}
+// La description de blog
+.description{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.imageAuthor img{
+    height: 55px;
+    width: 55px;
+    border-radius: 45px;
+}
+.persoInfos{
+position: absolute;
+margin-left: 70px;
+margin-top: -70px;
+}
+
+// Le boutton du cadre du blog
+.butttons button{
+    height: 50px;
+    background: rgb(12, 114, 182);
+    color: white;
+    border-radius: 18px;
+}
+
+.butttons button:hover{
+    background: none;
+    color: rgb(12, 114, 182);
+}
+
+@media(max-width:1200px){
+    .gauche,.droite{
+        display: none;
+    }
+
+    .centre{
+        top: 1%;
+        left: 15px;
+        transform: translate(60,25%);
+        position: absolute;
+        width: 100%;
+        overflow:hidden;
+        width: 100%;
+    }
+    .immage {
+        width: 100%;
+    }
+    
+}

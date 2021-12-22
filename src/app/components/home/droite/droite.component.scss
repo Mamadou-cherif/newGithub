@@ -1,0 +1,41 @@
+// le cadre global de l'image de profile
+.userprofile{
+    padding: 0;
+    margin: 0;
+}
+
+.imageProfile{
+    position:absolute;
+    top: 45px;
+    left: -150px;
+}
+.imageProfile img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.userInfo{
+}
+
+/*AddUsers*/
+.AddUsers{
+    margin-top: 150px;
+    position: absolute;
+    margin-left: -210px;
+}
+
+.immg img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    position:  absolute;
+    margin-left: -50px;
+
+}
+
+.userInfo{
+position: absolute;
+margin-top: -20px;
+margin-left: 0px;
+}
