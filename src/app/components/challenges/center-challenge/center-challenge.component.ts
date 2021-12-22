@@ -25,7 +25,7 @@ export class CenterChallengeComponent implements OnInit {
       
       if (file) {
         this.currentFile = file;
-        this._uploadService.upload(this.currentFile, "http://localhost:3000/api/upload").subscribe(data=>{
+        this._uploadService.upload(this.currentFile, "http://wwodify.herokuapp.com/api/upload").subscribe(data=>{
            
           alert("bonjour")
         },
